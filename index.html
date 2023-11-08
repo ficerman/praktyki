@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+</head>
+
+<body>
+    <form>
+        podaj a: <input type="number" id="a"> <br>
+        podaj b: <input type="number" id="b"> <br>
+        <input type="radio" id="dod" name="dzialania" checked>
+        <label for="dod">dodawanie</label>
+        <input type="radio" id="od" name="dzialania">
+        <label for="od">odejmowanie</label>
+        <input type="radio" id="mnoz" name="dzialania">
+        <label for="mnoz">mnożenie</label>
+        <input type="radio" id="dziel" name="dzialania">
+        <label for="dziel">dzielenie</label>
+        </br>
+        <input type="button" value="licz" onclick="calculate()">
+    </form>
+    wynik:
+    <h1 id="wynik"></h1>
+    <script src="script.js"></script>
+</body>
+
+</html>
